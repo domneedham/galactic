@@ -32,7 +32,7 @@ embassy-executor = { version = "0.6.3", features = [
     "integrated-timers",
     "nightly",
 ] }
-fixed = "1.28.0"
+fixed = "1.24.0"
 fixed-macro = "1.2"
 
 embedded-graphics = "0.8.1"
