@@ -22,13 +22,13 @@ pub struct UnicornSensorPins {
 }
 
 pub struct UnicornButtonPins<'d> {
-    pub switch_a: Input<'d, PIN_0>,
-    pub switch_b: Input<'d, PIN_1>,
-    pub switch_c: Input<'d, PIN_3>,
-    pub switch_d: Input<'d, PIN_6>,
-    pub brightness_up: Input<'d, PIN_21>,
-    pub brightness_down: Input<'d, PIN_26>,
-    pub volume_up: Input<'d, PIN_7>,
-    pub volume_down: Input<'d, PIN_8>,
-    pub sleep: Input<'d, PIN_27>,
+    pub switch_a: Input<'d>,
+    pub switch_b: Input<'d>,
+    pub switch_c: Input<'d>,
+    pub switch_d: Input<'d>,
+    pub brightness_up: Input<'d>,
+    pub brightness_down: Input<'d>,
+    pub volume_up: Input<'d>,
+    pub volume_down: Input<'d>,
+    pub sleep: Input<'d>,
 }

@@ -1,5 +1,6 @@
 #![no_std]
 #![feature(type_alias_impl_trait)]
+#![feature(impl_trait_in_assoc_type)]
 
 use core::iter::Iterator;
 use core::option::Option::*;
